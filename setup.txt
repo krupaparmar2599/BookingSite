@@ -1,0 +1,18 @@
+Created a Laravel 11 project and configured a MySQL database in .env.
+
+Built a users table with required fields using migrations and applied indexes for better performance.
+
+Implemented user registration and login with:
+Client-side validation using Parsley.js
+Server-side validation using Laravel validation rules
+
+After registration, sent a verification code via email using Mailtrap.
+
+Used Laravel Jobs & Queues to send emails in the background for faster performance.
+
+User enters the verification code to activate the account.
+
+Upon successful verification, redirected user to the booking process with a form.
+Implemented logic for Full Day, Half Day, and Custom timings.
+
+After booking, users can view all their bookings.
